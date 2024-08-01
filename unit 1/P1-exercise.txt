@@ -1,0 +1,23 @@
+1. Manage a library's book collection using a dictionary where the keys are book titles and the values are tuples containing the author's name and the year of publication.
+Tasks:
+•	Add a New Book:
+o	Task: Add the book 'Harry Potter' by 'J.K. Rowling', published in 1997.
+•	Remove a Book:
+o	Task: Remove the book 'The Hobbit' from the collection.
+•	Print All Books:
+o	Task: Print all books in the collection.
+
+
+2. An online store manages its inventory using Python data structures. They have products with names, prices, and quantities.
+Tasks:
+•	Create a dictionary where product names are keys, and their corresponding prices and quantities are stored as tuples.
+o	Example: {'ProductA': (100, 50), 'ProductB': (200, 30)}
+•	Calculate the total value of the inventory by multiplying the price and quantity of each product and summing the results.
+•	Given a product name, check if it exists in the inventory and if so, print its price and quantity.
+
+
+3. A text analysis tool needs to process text and extract information using Python.
+ Tasks: 
+•	Create a string containing a sample text. 
+•	Create a list of all words in the text by splitting the string. 
+•	Create a set of unique words from the list.
