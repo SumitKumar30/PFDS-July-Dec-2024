@@ -21,3 +21,22 @@ o	Example: {'ProductA': (100, 50), 'ProductB': (200, 30)}
 •	Create a string containing a sample text. 
 •	Create a list of all words in the text by splitting the string. 
 •	Create a set of unique words from the list.
+
+4. A text analysis tool needs to calculate the frequency of words in a text using Python data structures.
+Tasks:
+- Create a string containing a sample text.
+- Create a list of all words in the text by splitting the string.
+- Create a dictionary to count the frequency of each word in the list.
+- Find the most frequent word in the text.
+
+5. An email analysis tool needs to extract information from email addresses using Python data structures.
+Tasks:
+- Create a list of email addresses.
+- Extract the usernames (part before the '@') and domain names (part after the '@') from the email addresses and store them in separate lists.
+- Create a set of unique domain names.
+
+6. An online shopping cart system needs to manage products and quantities using Python data structures.
+Tasks:
+- Create a dictionary where product names are keys and their corresponding prices are values.
+- Create a list to store items in the shopping cart, where each item is a tuple containing the product name and quantity.
+- Calculate the total cost of items in the shopping cart.
