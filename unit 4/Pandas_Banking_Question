@@ -1,0 +1,28 @@
+
+
+Given a banking dataset (bank_df), perform the following operations:
+
+Basic Filtering and Selection
+
+a. Select and display all rows where the Balance is greater than 50,000 and AccountType is "Savings".
+b. Retrieve and display only the columns CustomerID, Age, and Balance for customers aged above 30.
+Grouping and Aggregation
+
+a. Group the data by Branch and find the average Balance for each branch.
+b. Calculate the total LoanAmount for each LoanStatus (e.g., Approved, Denied).
+
+Merging DataFrames
+
+Assume you have another DataFrame (loan_df) that contains CustomerID, LoanType, and InterestRate for customers with loans. Merge bank_df with loan_df on CustomerID to create a combined DataFrame, ensuring no missing values in InterestRate by using fill_value=0.
+
+Adding and Calculating New Columns
+
+a. Add a new column called MonthlyFee where:
+If AccountType is "Savings", the fee is 200.
+If AccountType is "Checking", the fee is 150.
+b. Calculate and add another column, YearlyTransactions, as TransactionCount multiplied by 12.
+
+Advanced Filtering and Sorting
+
+a. Filter the dataset to show customers in the city "New York" with a LoanAmount greater than 100,000.
+b. Sort the filtered DataFrame by Balance in descending order and display the top 5 customers.
